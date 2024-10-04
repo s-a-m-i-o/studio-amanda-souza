@@ -1,0 +1,94 @@
+@media screen and (max-width:400px) {
+
+    .header {        
+    margin-left: 5px;
+    height: 150px;
+    }
+
+    .header img {
+        width: 80px;
+    }
+
+    .header .menu-superior:hover .hamburger {
+        opacity: 0;
+        font-size: 0;
+    }
+
+    .pesquisa {
+        padding: 3px;
+        display: flex;
+        align-items: center;
+    }
+
+    .pesquisa .conteudo-pesquisa {
+        display: flex;
+        align-items: center;
+    }
+
+    .pesquisa .conteudo-pesquisa .bi {
+        border-right: 1px solid var(--rosa);
+        font-size: 18px;
+        margin-right: 20px;
+        padding-right: 5px;
+    }
+
+    .pesquisa .conteudo-pesquisa input {
+        padding: 0;
+        font-size: 18px;
+    }
+
+    .nav-auto, .nav-manual {
+        margin-top: 97%;
+    }
+
+    .slider {
+        text-align: center;
+    }
+
+    .nav-manual, .nav-auto {
+        margin-top: 58%;
+    }
+
+    .slide-box img {
+        width: 100%;
+    }
+
+    .pagamento .card {
+        margin: 10px;
+    }
+
+    .pop-up {
+        display: none;
+    }
+
+    .footer {
+        display: block;
+        padding: 10px;
+        color: var(--rosa);
+    }
+
+    .footer .ajuda {
+        display: flex;
+        align-items: center;
+        justify-content: space-around
+    }
+
+    .footer .ajuda a {
+        width: 150px;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        color: var(--rosa);
+    }
+
+    .footer .ajuda .bi {
+        color: green;
+        font-weight: bold;
+        filter: drop-shadow(1px 1px 3px green);
+        transition: .3s;
+    }
+
+    .footer .ajuda .bi:hover {
+        font-size: 20px;
+    }
+}

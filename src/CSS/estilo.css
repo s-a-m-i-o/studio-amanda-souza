@@ -1,0 +1,159 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    margin-bottom: 15px;
+}
+
+.header img {
+    width: 160px;
+    filter: drop-shadow(1px 1px 2px black);
+    z-index: -1;
+}
+
+.header .menu-superior .hamburger {
+    font-size: 40px;
+    padding: 30px;
+    cursor: pointer;
+    transition: .2s;
+    color: var(--rosa);
+}
+
+.header .menu-superior .drop{
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    height: 0;
+    transition: .3s;
+}
+
+.header .menu-superior:hover .drop {
+    height: 150px;
+    background-color: var(--rosa);
+}
+
+
+.header .menu-superior .drop a {
+    padding: 7px 30px;
+    margin: 5px;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 7px;
+}
+
+.header .logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.header .logo h1 {
+    filter: drop-shadow(1px 1px 1px #fff);
+    position: absolute;
+    transform: translate(60%, 20%);
+    text-transform: uppercase;
+}
+
+.header .logo .normal {
+    font-weight: normal;
+    font-size: 18px;
+    
+}
+
+.header .block {
+    width: 230px;
+    height:10px;
+}
+
+.pesquisa {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pesquisa .conteudo-pesquisa {
+    width: 80%;
+    padding: 10px;    
+    background-color: #fff;
+    border-bottom: 1px solid var(--rosa);
+    margin-bottom: 15px;
+}
+
+.pesquisa .bi {
+    font-size: 20px;
+}
+
+.pesquisa input {
+    width: 95%;
+    padding: 5px;
+    border: none;
+    font-size: 20px;
+}
+
+.pagamento {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 60px;
+    height: auto;
+    background-color: var(--rosa);
+    text-align: center;
+    padding: 20px 0;
+}
+
+.pagamento .card {
+    border: 1px solid var(--amarelo);
+    margin: 5px;
+    border-radius: 7px;
+    width: 200px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.pagamento .card .bi {    
+    font-size: 50px;
+    color: var(--amarelo);
+    margin-bottom: 10px;
+}
+
+.pagamento h3 {
+    font-size: 20px;
+    color: #fff;
+    letter-spacing: 2px;
+}
+
+.pop-up { 
+    background-color: var(--rosa);
+    width: 200px;
+    height: 100px;
+    position: fixed;
+    top: 85%;
+    right: 30px;
+    padding-top: 30px;
+    border: 1px solid var(--amarelo);
+    border-top-right-radius: 100px;
+    border-top-left-radius: 100px;
+    border-bottom-left-radius: 100px;
+    color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.pop-up .pop a{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+}
+
+
+.footer{
+    background-color: var(--cordefundoclaro);
+}
+
